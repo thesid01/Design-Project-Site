@@ -1,0 +1,84 @@
+/* ---------------------------------------------------- Color --------------------------------------------------------- */
+
+.pastel-green{
+  /* background-color: #ffebee; */
+  background-color: #ffcdd2 !important;
+}
+.light-blue{
+  background-color: #ffebee !important;
+  /* background-color: #ffcdd2 !important; */
+}
+.dark-brown{
+  color: #3e2723 !important;
+}
+.d-center{
+  margin: 0 auto;
+}
+
+.d-small{
+  font-size: 15px;
+  font-weight: bold;
+}
+/* ---------------------------------------------------- logo --------------------------------------------------------- */
+
+.logo{
+  height: 90px !important;
+  width: 147px !important;
+}
+.d-bottom{
+  /* vertical-align: baseline; */
+  vertical-align: text-bottom;
+}
+
+/* ---------------------------------------------------- video --------------------------------------------------------- */
+
+.d-video{
+  height: 30%;
+  width: 53%;
+}
+
+/* ---------------------------------------------------- Search button --------------------------------------------------------- */
+.topnav .search-container {
+  float: right;
+}
+
+input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 15px;
+  border: none;
+}
+
+.search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+ .search-container {
+      float: none;
+  }
+ a, input[type=text], .topnav .search-container button {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+  }
+   input[type=text] {
+      border: 1px solid #ccc;  
+  }
+  /* #d-main-search{
+    visibility: hidden;
+  } */
+}
+ .search-container button {
+  float: left;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-left: 16px;
+  background: #ddd;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
