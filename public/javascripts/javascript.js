@@ -2,8 +2,8 @@ function postStory(){
     var name = undefined;
     var title = undefined;
     var story = undefined;
-    var rating = document.getElementById("ratingStar").value;
-    console.log(rating);
+    // var rating = document.getElementById("ratingStar").value;
+    // console.log(rating);
     if(document.getElementById("name").value.length >0)
         name=document.getElementById("name").value;
     
