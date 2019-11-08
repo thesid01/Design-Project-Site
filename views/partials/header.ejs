@@ -24,6 +24,10 @@
 
         <link href="stylesheets/style.css" rel="stylesheet" type="text/css">
 
+        <script type="text/javascript" src="javascripts/javascript.js"></script>
+        <!-- <script src="https://apis.google.com/js/platform.js" async defer></script>
+        <meta name="google-signin-client_id" content="368295044051-hq3pfjb41qr27h100g6knv8g7cmj7aab.apps.googleusercontent.com"> -->
+
     </head>
     <body class="dark-brown">
 
@@ -50,11 +54,11 @@
             </div>
             <div class="modal-body light-blue">
               <ul class="list-group border-0 light-blue">
-                <li class="list-group-item border-0 light-blue">Home</li>
-                <li class="list-group-item border-0 light-blue">FAQ</li>
-                <li class="list-group-item border-0 light-blue">Forum</li>
-                <li class="list-group-item border-0 light-blue">Contact Us</li>
-                <li class="list-group-item border-0 light-blue">About Us</li>
+                <li class="list-group-item border-0 light-blue"><a class="text-danger" href="/">Home</a></li>
+                <li class="list-group-item border-0 light-blue"><a class="text-danger" href="/faq">FAQ</a></li>
+                <li class="list-group-item border-0 light-blue"><a class="text-danger" href="/forum">Forum</a></li>
+                <li class="list-group-item border-0 light-blue"><a data-toggle="modal" data-target="#contactUs" class=" text-danger z-depth-0">Contact US</a></li>
+                <li class="list-group-item border-0 light-blue"><a class="text-danger" href="/aboutus">About Us</a></li>
               </ul>
             </div>
             <div class="modal-footer justify-content-center pastel-green">
@@ -86,7 +90,7 @@
 
             <div class="d-none d-md-block">
                 <div class="mr-4">
-                    <div><div class="text-center"><i class="fas fa-headset fa-2x d-center"></i></div></div>
+                    <div><div class="text-center"><i class="fas fa-headset fa-lg d-center"></i></div></div>
                     <figcaption class="d-small">
                         <button type="button" class="btn pastel-green z-depth-0" data-toggle="modal" data-target="#contactUs">
                             Contact Us
@@ -99,288 +103,3 @@
         </nav>
 
         <!-- Navigation End -->
-        <div class="container-fluid">
-            <div class="container">
-
-                <div class="row">
-                    <div class="col">
-                        <div class="d-video d-center mt-4">
-                            <div class="embed-responsive embed-responsive-16by9 rounded ">
-                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zPQ1vYlgJZQ" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <hr>
-            <div class="m-0 p-0 m-sm-3 p-sm-3">
-                <div class="row">
-                  <div class=" mx-1">
-                      <p class="note note-primary">
-                          <strong class="h1">Features</strong>
-                          <span class="badge badge-primary align-text-top z-depth-0">New</span>
-                      </p>
-                  </div>
-
-                  <div class="container m-1 m-sm-3 p-sm-3">
-                    <h4 class="text-center py-4">Main Attractions</h4>
-
-                    <!-- Grid row -->
-                    <div class="row">
-                    
-                      <!-- Grid column -->
-                      <div class="col-md-6 mb-4">
-                    
-                        <!--Card-->
-                        <div class="card default-color-dark">
-                    
-                          <!--Card image-->
-                          <div class="view">
-                            <img src="images/img1.jpeg" class="card-img-top" alt="photo">
-                            <a href="#">
-                              <div class="mask rgba-white-slight"></div>
-                            </a>
-                          </div>
-                    
-                          <!--Card content-->
-                          <div class="card-body text-center">
-                            <!--Title-->
-                            <h4 class="card-title white-text">Welcome Home</h4>
-                            <!--Text-->
-                            <p class="card-text white-text">Greets the child when child opens the door thereby inculcating good
-                                home ethics right from infantancy. </p>
-                            <!-- <a href="#" class="btn btn-outline-white btn-md waves-effect">Button</a> -->
-                          </div>
-                    
-                        </div>
-                        <!--/.Card-->
-                    
-                      </div>
-                      <!-- Grid column -->
-                    
-                      <!-- Grid column -->
-                      <div class="col-md-6 mb-4">
-                    
-                        <!--Card-->
-                        <div class="card primary-color-dark">
-                    
-                          <!--Card image-->
-                          <div class="view">
-                            <img src="images/img2.png" class="card-img-top" alt="photo">
-                            <a href="#">
-                              <div class="mask rgba-white-slight"></div>
-                            </a>
-                          </div>
-                    
-                          <!--Card content-->
-                          <div class="card-body text-center">
-                            <!--Title-->
-                            <h4 class="card-title white-text">Canopy</h4>
-                            <!--Text-->
-                            <p class="card-text white-text">It lights up the selected weather and talks about it when 
-                                the child interacts with the dial.
-                            </p>
-                            <!-- <a href="#" class="btn btn-outline-white btn-md waves-effect">Button</a> -->
-                          </div>
-                    
-                        </div>
-                        <!--/.Card-->
-                    
-                      </div>
-                      <!-- Grid column -->
-                    
-                    </div>
-                    <!-- Grid row -->
-                    
-                    <h4 class="text-center py-4">Also Includes</h4>
-                    
-                    <!-- Grid row -->
-                    <div class="row">
-                    
-                      <!-- Grid column -->
-                      <div class="col-lg-4 col-md-12 mb-4">
-                    
-                        <!--Card Primary-->
-                        <div class="card mdb-color text-center z-depth-2">
-                          <div class="card-body">
-                            <h3 class="text-uppercase font-weight-bold cyan-text mt-2 mb-3"><strong>Clock</strong></h3>
-                              <img src="images/img4.png" class="card-img-top" alt="photo">
-                          </div>
-                        </div>
-                        <!--/.Card Primary-->
-                    
-                      </div>
-                      <!-- Grid column -->
-                    
-                      <!-- Grid column -->
-                      <div class="col-lg-4 col-md-6 mb-4">
-                    
-                        <!--Card Primary-->
-                        <div class="card red darken-4 text-center z-depth-2">
-                          <div class="card-body">
-                            <h3 class="text-uppercase font-weight-bold light-green-text mt-2 mb-3"><strong>Smart Dustbin</strong></h3>
-                            <img src="images/img7.png" class="card-img-top" alt="photo">
-                          </div>
-                        </div>
-                        <!--/.Card Primary-->
-                    
-                      </div>
-                      <!-- Grid column -->
-                    
-                      <!-- Grid column -->
-                      <div class="col-lg-4 col-md-6 mb-4">
-                    
-                        <!--Card Primary-->
-                        <div class="card light-blue darken-1 text-center z-depth-2">
-                          <div class="card-body">
-                            <h3 class="text-uppercase font-weight-bold purple-text mt-2 mb-3"><strong>Shape Slots</strong></h3>
-                            <img src="images/img6.png" class="card-img-top" alt="photo">
-                          </div>
-                        </div>
-                        <!--/.Card Primary-->
-                    
-                      </div>
-                      <!-- Grid column -->
-                    
-                    </div>
-                    <!-- Grid row -->
-                    
-                    <h4 class="text-center py-4">Finally...</h4>
-                    
-                    <!-- Grid row -->
-                    <div class="row">
-                    
-                      <!-- Grid column -->
-                      <div class="col-md-6 col-lg-7 mb-4">
-                    
-                        <!--Card-->
-                        <div class="card">
-                    
-                          <!--Card image-->
-                          <div class="view">
-                            <img src="images/img8.jpeg" class="card-img-top" alt="photo">
-                            <a href="#">
-                              <div class="mask rgba-white-slight"></div>
-                            </a>
-                          </div>
-                    
-                          <!--Card content-->
-                          <div class="card-body text-center">
-                            <!--Title-->
-                            <h4 class="card-title">Casa.</h4>
-                            <!--Text-->
-                            <p class="card-text">Casa's toys are very safe, made from natural wood and coloured in bright non-toxic paints.
-                                  Each toy has been carefully designed to be fun & engaging,
-                                  and focus on different learning attributes/skills at different age groups starting from 6 months to 3 years old.</p>
-                            <a href="#" class="btn btn-dark-green">Read more</a>
-                          </div>
-                    
-                        </div>
-                        <!--/.Card-->
-                    
-                      </div>
-                      <!-- Grid column -->
-                    
-                      <!-- Grid column -->
-                      <div class="col-md-6 col-lg-5">
-                    
-                        <!--Card-->
-                        <div class="card green darken-3">
-                    
-                          <!--Card image-->
-                          <div class="view">
-                            <img src="images/img9.png" class="card-img-top"
-                              alt="photo">
-                            <a href="#">
-                              <div class="mask rgba-white-slight"></div>
-                            </a>
-                          </div>
-                    
-                          <!--Card content-->
-                    
-                        </div>
-                        <!--/.Card-->
-                    
-                      </div>
-                      <!-- Grid column -->
-                    
-                    </div>
-                    <!-- Grid row -->
-
-                  </div>
-                  
-                </div>
-
-            </div>
-        </div>
-
-
-        <div class="modal fade" id="contactUs" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Contact Us</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-                </div>
-                <div class="modal-body">
-                +91 8009039189
-                <hr>
-                <a href="mailto:sidkv.skv@gmail.com?Subject=Order_Now" target="_top">sidkv.skv@gmail.com</a>
-                </div>
-            </div>
-            </div>
-        </div>
-
-        <nav class="navbar pastel-green z-depth-0">
-          <div class="col-6 text-right">
-              <div class="m-2">
-                  <button type="button" class="btn btn-info z-depth-0" data-toggle="modal" data-target="#contactUs">
-                      ContactUs <i class=" fas fa-tty ml-1 "></i>
-                  </button>
-              </div>
-          </div>
-          <div class="col-6">
-              <div class="m-2"> 
-                  <button type="button" class="btn btn-info z-depth-0" data-toggle="modal" data-target="#faq">
-                          FAQs <i class="fas fa-question ml-1"></i> 
-                  </button>
-              </div>
-          </div>
-        </nav>
-
-        <nav class="navbar z-depth-0 light-blue">
-          <div class="col text-center">
-              <i class="fab fa-facebook mr-2"></i>
-              <i class="fab fa-twitter mr-2"></i>
-              <i class="fab fa-instagram"></i>
-          </div>
-        </nav>
-
-        <nav  class="navbar z-depth-0 light-blue">
-          <div class="col text-center">
-            <div class="search-container">
-                <form action="#">
-                    <button type="submit" class="pastel-green"><span class="fab fa-telegram-plane"></span></button>
-                    <input type="text" placeholder="News Letter.." name="News Letter">
-                </form>
-            </div>
-          </div>
-        </nav>
-
-        <nav class="navbar z-depth-0 light-blue d-none d-sm-block">
-          <p class="pt-3 pr-5 pl-5 mr-5 ml-5 text-justify">
-              Casa is an online brand for sustainable and environmentally safe toys that help your child learn a 
-              lot in a fun way. Each toy has been designed after much research on how to engage, stimulate and 
-              entertain children in age-appropriate ways. Prioritizing child-safety, every Casa toy adheres to
-                strict quality control standards. These timeless, sturdy wood-carved toys withstand wear and tear
-                and can be handed down as heirlooms, making them a great value for money. 
-          </p>
-        </nav>
-        <nav class="navbar z-depth-0 pastel-green">
-            <p class="font-weight-bold d-center"> © All Right Reserved 2019 </p>
-        </nav>
-
-    </body>
-</html>
